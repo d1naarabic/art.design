@@ -1,0 +1,25 @@
+@media only screen and (max-width:768px){
+    .navbar .navbar__nav .fa-bars{
+display: block;
+
+    }
+    
+    
+    .navbar__nav a{
+        display: none;
+        }
+        .header{     
+  height: 100vh;
+        }
+        .banner h1{
+            font-size: 3rem;
+        text-align: center;
+        }
+        .banner  form{
+            width: 100%;
+        }
+.design__content, .blog__content, .about__content{
+    grid-template-columns: 100%;
+}
+
+}
